@@ -13,11 +13,13 @@ main {
 
 .flex {
   display: flex;
+  justify-content: center;
+
 }
 
 .header {
   position: fixed;
-  width: 100%;
+  background-color: white;
   min-height: 60px;
   top: 0px;
   align-items: center;
@@ -32,6 +34,7 @@ main {
   flex-grow: 1;
   padding-left: 10px;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .nav {
@@ -48,7 +51,6 @@ main {
 
 .container {
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   
   background-image: url("../images/banner.png");
@@ -73,7 +75,46 @@ main {
 
 .button {
   background-color: transparent;
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 10px;
   font-size: 16px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.advantages {
+  width: 1000px;
+  margin: auto;
+}
+
+.adv-item {
+  flex-direction: column;
+  padding: 40px;
+  width: 300px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+
+.foto {
+  width: 300px;
+  height: 200px;
+}
+
+.grey {
+  background-color: #f7f7f7;
+}
+
+.w100 {
+  width: 100%;
+    align-items: center;
+
+}
+
+.about {
+  width: 400px;
+  padding: 30px;
 }
