@@ -1,97 +1,169 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Проект: ЖК «Лунное море» by Анастасия Никольская</title>
-
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Проект: ЖК «Лунное море» by Анастасия Никольская</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-	<header class="header flex w100">
-      <div class="logo-menu flex">
-        <img class="logoheader" src="images/logo.svg" alt="Логотип Лунного море">
-        <p><a href="#">Лунное море</a></p>
-      </div>
-      <nav>
-        <ul class="nav flex">
-          <li><a href="#advantages">Преимущества</a></li>
-          <li><a href="#about">О ЖК</a></li>
-          <li><a href="#rest">Места для отдыха</a></li>
+  <header class="header flex w100">
+    <div class="logo-menu flex">
+      <img class="logoheader" src="images/logo.svg" alt="Логотип Лунного море">
+      <p><a href="#">Лунное море</a></p>
+    </div>
+    <nav>
+      <ul class="nav flex">
+        <li><a href="#advantages">Преимущества</a></li>
+        <li><a href="#about">О ЖК</a></li>
+        <li><a href="#rest">Места для отдыха</a></li>
       </ul>
-      </nav>
-	</header>
+    </nav>
+  </header>
+<main>
+  <section class="container flex">
+    <img class="logomain" src="images/logo.svg" alt="Логотип Лунного море">
+	<h1>ЖК «Лунное море»</h1>
+	<p>Место, откуда не хочется улетать</p>
+	<button type="submit" class="button" form="form">Забронировать</button>
+  </section>
+  <section id="advantages" class="advantages flex">
+	<div class="adv-item">
+	  <h2>Уникальный вид</h2>
+	  <p>
+		Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.
+	  </p>
+	</div>
+	<div class="adv-item">
+	  <h2>Инфраструктура</h2>
+	  <p>
+		Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.
+	  </p>
+	</div>
+	<div class="adv-item">
+	  <h2>Близость к Москве</h2>
+		<p>
+		  При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.
+		</p>
+	</div>
+  </section>
+  <section class="advantages flex grey w100">
+	<div id="about" class="about">
+	  <h2>О ЖК «Лунное море»</h2>
+	  <p>
+		Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.
+	  </p>
+	  <p>
+		Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.
+	  </p>
+	</div>
+	<div class="adv-item">
+	  <img class="foto" src="images/moon-1.jpg" alt="Фото луны из вашего окна">
+	</div>
+  </section>
+  <section class="advantages flex w100">
+	<div id="rest" class="adv-item">
+	  <img class="foto" src="images/moon-2.jpg" alt="Фото луны из вашего окна">
+	</div>
+	<div class="about">
+	  <h2>Места для отдыха</h2>
+	  <p>
+		Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.
+	  </p>
+	  <p>
+		Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».
+	  </p>
+	</div>
+  </section>
+  <section class="advantages flex grey w100">
+    <div class="padding">
+      <h2>Оставьте заявку сегодня!</h2>
+      <form id="form">
+        
+        <fieldset class="green">
+          <legend>
+            <h3>Параметры квартиры</h3>
+          </legend>
+          
+          <div class="flex form">
+            <div class="form-item">
+              <label for="room">
+                <strong>Количество комнат:</strong>
+              </label>
+            </div>
+            <div>
+              <select class="item" id="room" name="count">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="flex form">
+            <div class="form-item">
+              <label for="design">
+                <strong>Отделка:</strong>
+              </label>
+            </div>
+            <div>
+              <select class="item" id="design" name="var">
+                <option>Без отделки</option>
+                <option>Стандарт</option>
+                <option>Люкс</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
 
-	<main>
-		<section class="container flex">
-			<img class="logomain" src="images/logo.svg" alt="Логотип Лунного море">
-			<h1>ЖК «Лунное море»</h1>
-			<p>Место, откуда не хочется улетать</p>
-			<button type="submit" class="button">
-				Забронировать
-			</button>
-		</section>
+        <fieldset class="green">
+          <legend>
+            <h3>Контактная информация</h3>
+          </legend>
+          
+          <div class="flex form">
+            <div class="form-item">
+              <label for="name">
+                <strong>Имя:</strong>
+              </label>
+            </div>
+            <div>
+              <input class="item" id="name" name="user-name">
+            </div>
+          </div>
+          
+          <div class="flex form">
+            <div class="form-item">
+              <label for="phone">
+                <strong>Телефон:</strong>
+              </label>
+            </div>
+            <div>
+              <input class="item" id="phone" name="user-phone">
+            </div>
+          </div>
+         
 
-		<section id="advantages" class="advantages flex">
-			<div class="adv-item">
-				<h2>Уникальный вид</h2>
-				<p>
-					Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.
-				</p>
-			</div>
-			<div class="adv-item">
-				<h2>Инфраструктура</h2>
-				<p>
-					Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.
-				</p>
-			</div>
-			<div class="adv-item">
-				<h2>Близость к Москве</h2>
-				<p>
-					При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.
-				</p>
-			</div>
-		</section>
+          <div class="flex form">
+            <div class="form-item">
+              <label for="email">
+                <strong>E-mail:</strong>
+              </label>
+            </div>
+            <div>
+              <input class="item" id="email" name="user-email">
+            </div>
+          </div>
+        </fieldset>
+ 	  </form>
+	  <button type="submit" class="button-green">Отправить</button>
+	</div>
 
-		<section class="advantages flex grey w100">
-			<div id="about" class="about">
-				<h2>О ЖК «Лунное море»</h2>
-				<p>
-					Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.
-				</p>
-				<p>
-				Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.
-				</p>
-			</div>
-			
-			<div class="adv-item">
-				<img class="foto" src="images/moon-1.jpg" alt="Фото луны из вашего окна">
-			</div>
-		</section>
-
-		<section class="advantages flex w100">
-			<div id="rest" class="adv-item">
-				<img class="foto" src="images/moon-2.jpg" alt="Фото луны из вашего окна">
-			</div>
-			<div class="about">
-				<h2>Места для отдыха</h2>
-				<p>
-					Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.
-
-				</p>
-				<p>
-					Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».
-
-				</p>
-			</div>
-		</section>
-
-
-	</main>
-
-	<footer>
-		<p>подвал</p>
-	</footer>
+</section>
+</main>
+<footer>
+  <p>подвал</p>
+</footer>
 </body>
 </html>

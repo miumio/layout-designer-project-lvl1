@@ -39,14 +39,14 @@ main {
 
 .nav {
   list-style: none;
-  padding-right: 20px;
 }
 
 .logo-menu a,
-.nav a {
+.nav a,
+.button a {
   text-decoration: none;
-  padding-left: 15px;
   color: inherit;
+  padding: 0px 10px;
 }
 
 .container {
@@ -66,6 +66,7 @@ main {
 
 .container h1 {
   margin: 0;
+  padding-top: 20px;
 }
 
 .logomain {
@@ -80,6 +81,16 @@ main {
   font-size: 16px;
   color: #ffffff;
   padding: 10px;
+}
+
+.button-green {
+  background-color: transparent;
+  border: 2px solid #09d3ac;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #09d3ac;
+  padding: 10px 20px;
+  margin-top: 20px;
 }
 
 .advantages {
@@ -117,4 +128,37 @@ h2 {
 .about {
   width: 400px;
   padding: 30px;
+}
+
+
+h3 {
+  color: #09d3ac;
+}
+
+.form {
+  justify-content: flex-start;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.form-item {
+  width: 200px;
+}
+
+.green {
+  border-color: #09d3ac;
+  padding-right: 30px;
+}
+
+.item {
+  border-radius: 5px;
+  height: 20px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  background-color: #f7f7f7;
+}
+
+.padding {
+  padding: 20px;
 }
