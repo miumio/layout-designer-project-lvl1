@@ -17,6 +17,8 @@ main {
 
 .center {
   justify-content: center;
+  box-sizing: border-box;
+  padding: 20px 15%;
 
 }
 
@@ -102,7 +104,6 @@ main {
 }
 
 .adv-item {
-  flex-direction: column;
   padding: 40px;
   width: 33%;
 }
@@ -124,13 +125,12 @@ h2 {
 
 .w100 {
   width: 100%;
-    align-items: center;
-
+  align-items: center;
 }
 
 .about {
-  width: 400px;
-  padding: 30px;
+  flex-direction: column;
+  padding: 20px;
 }
 
 
