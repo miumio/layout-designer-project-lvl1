@@ -13,6 +13,9 @@ main {
 
 .flex {
   display: flex;
+}
+
+.center {
   justify-content: center;
 
 }
@@ -21,8 +24,10 @@ main {
   position: fixed;
   background-color: white;
   min-height: 60px;
-  top: 0px;
   align-items: center;
+  padding: 0px 0px 0px 10px;
+  box-sizing: border-box;
+
 }
 
 .logoheader {
@@ -32,7 +37,6 @@ main {
 
 .logo-menu {
   flex-grow: 1;
-  padding-left: 10px;
   align-items: center;
   justify-content: flex-start;
 }
@@ -59,8 +63,7 @@ main {
   height: 410px;
 }
 
-.container h1,
-.container p {
+.white {
   color: #ffffff;
 }
 
@@ -101,7 +104,7 @@ main {
 .adv-item {
   flex-direction: column;
   padding: 40px;
-  width: 300px;
+  width: 33%;
 }
 
 h2 {
@@ -160,5 +163,13 @@ h3 {
 }
 
 .padding {
-  padding: 20px;
+  padding: 30px;
+}
+
+.footgrey {
+  background-color: #303846;
+}
+
+footer p {
+  font-size: 14px;
 }
