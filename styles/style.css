@@ -1,4 +1,4 @@
-html, 
+html,
 body {
   font-family: sans-serif;
   font-size: 16px;
@@ -12,11 +12,12 @@ main {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 28px;
   margin: 0;
 }
 
 h3 {
+  font-size: 24px;
   color: #09d3ac;
 }
 
@@ -74,6 +75,7 @@ footer p {
 }
 
 .container h1 {
+  font-size: 36px;
   margin: 0;
   padding-top: 20px;
 }
@@ -104,22 +106,18 @@ footer p {
 
 .advantages {
   width: 1000px;
+  padding: 60px;
+  justify-content: space-between;
   margin: auto;
 }
 
 .adv-item {
-  padding: 40px;
-  width: 33%;
+  width: 300px;
 }
 
 .logoheader {
   width: 35px;
   height: 35px;
-}
-
-.foto {
-  width: 300px;
-  height: 200px;
 }
 
 .grey {
@@ -132,18 +130,14 @@ footer p {
 }
 
 .about {
-  flex-direction: column;
-  padding: 20px;
+  width: 500px;
 }
 
 .form {
   justify-content: flex-start;
+  align-items: center;
   padding-left: 20px;
   padding-bottom: 20px;
-}
-
-.form-item {
-  width: 200px;
 }
 
 .green {
@@ -152,16 +146,22 @@ footer p {
 }
 
 .item {
-  border-radius: 5px;
-  height: 20px;
+  border-radius: 10px;
+  font-size: 12px;
+  height: 30px;
+  width: 150px;
   border-style: solid;
-  border-color: grey;
+  border-color: #d8d8d8;
   border-width: 1px;
   background-color: #f7f7f7;
 }
 
+.form-item {
+  width: 200px;
+}
+
 .padding {
-  padding: 30px;
+  padding: 50px;
 }
 
 .footgrey {

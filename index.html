@@ -7,6 +7,7 @@
   <title>Проект: ЖК «Лунное море» by Анастасия Никольская</title>
   <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
   <header class="header flex w100">
     <div class="logo-menu flex">
@@ -21,6 +22,7 @@
       </ul>
     </nav>
   </header>
+
 <main>
   <section class="container flex white center">
     <img class="logomain" src="images/logo.svg" alt="Логотип Лунного море">
@@ -48,35 +50,42 @@
     </p>
   </div>
   </section>
-  <section class="advantages flex grey w100 center">
-  <div id="about" class="about">
-    <h2>О ЖК «Лунное море»</h2>
-    <p>
-    Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.
-    </p>
-    <p>
-    Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.
-    </p>
-  </div>
-  <div>
-    <img class="foto" src="images/moon-1.jpg" alt="Фото луны из вашего окна">
-  </div>
+
+  <section class="grey w100">
+  	<div class="advantages flex center">
+  	  <div id="about" class="about">
+      <h2>О ЖК «Лунное море»</h2>
+      <p>
+      Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.
+      </p>
+      <p>
+      Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.
+      </p>
+    </div>
+      <div>
+        <img class="adv-item" src="images/moon-1.jpg" alt="Фото луны из вашего окна">
+  	  </div>
+    </div>
   </section>
-  <section class="advantages flex w100 center">
-  <div id="rest" class="adv-item">
-    <img class="foto" src="images/moon-2.jpg" alt="Фото луны из вашего окна">
-  </div>
-  <div class="about">
-    <h2>Места для отдыха</h2>
-    <p>
-    Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.
-    </p>
-    <p>
-    Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».
-    </p>
-  </div>
+
+  <section class="w100">
+  	<div class="advantages flex center">
+  	  <div>
+        <img class="adv-item" src="images/moon-2.jpg" alt="Фото луны из вашего окна">
+  	  </div>
+  	  <div id="rest" class="about">
+      <h2>Места для отдыха</h2>
+      <p>
+      Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.
+      </p>
+      <p>
+      Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».
+      </p>
+      </div>
+    </div>
   </section>
-  <section class="advantages flex grey w100 center">
+  
+  <section class="flex grey w100 center">
     <div class="padding">
       <h2>Оставьте заявку сегодня!</h2>
       <form id="form">
@@ -92,7 +101,7 @@
                 <strong>Количество комнат:</strong>
               </label>
             </div>
-            <div>
+            <div class="form-item">
               <select class="item" id="room" name="count">
                 <option>1</option>
                 <option>2</option>
@@ -129,7 +138,7 @@
               </label>
             </div>
             <div>
-              <input class="item" id="name" name="user-name">
+              <input class="item form-item" id="name" name="user-name">
             </div>
           </div>
           
@@ -140,7 +149,7 @@
               </label>
             </div>
             <div>
-              <input class="item" id="phone" name="user-phone">
+              <input class="item form-item" id="phone" name="user-phone">
             </div>
           </div>
          
@@ -152,7 +161,7 @@
               </label>
             </div>
             <div>
-              <input class="item" id="email" name="user-email">
+              <input class="item form-item" id="email" name="user-email">
             </div>
           </div>
         </fieldset>
@@ -162,6 +171,7 @@
 
 </section>
 </main>
+
 <footer class="footgrey white">
   <div class="advantages flex">
     <div class="adv-item">
@@ -174,15 +184,15 @@
   <div class="adv-item">
     <h4>Проектная документация</h4>
     <ul>
-      <li>Скачать</li>
-      <li>Посмотреть на сайте</li>
+      <li><p>Скачать</p></li>
+      <li><p>Посмотреть на сайте</p></li>
     </ul>
   </div>
   <div class="adv-item">
     <h4>О застройщике</h4>
     <ul>
-      <li>Отзывы</li>
-      <li>Сайт компании</li>
+      <li><p>Отзывы</p></li>
+      <li><p>Сайт компании</p></li>
     </ul>
   </div>
 </div>
