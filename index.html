@@ -10,41 +10,41 @@
 
 <body>
   <header class="header flex w100">
-    <div class="logo-menu flex">
+    <div class="flex vcenter">
       <img class="logoheader" src="images/logo.svg" alt="Логотип Лунного море">
-      <p class="nav-item"><a href="#">Лунное море</a></p>
+      <p class="padding-left"><a href="#">Лунное море</a></p>
     </div>
     <nav>
       <ul class="nav flex">
-        <li class="nav-item"><a href="#advantages">Преимущества</a></li>
-        <li class="nav-item"><a href="#about">О ЖК</a></li>
-        <li class="nav-item"><a href="#rest">Места для отдыха</a></li>
+        <li class="padding-left"><a href="#advantages">Преимущества</a></li>
+        <li class="padding-left"><a href="#about">О ЖК</a></li>
+        <li class="padding-left"><a href="#rest">Места для отдыха</a></li>
       </ul>
     </nav>
   </header>
 
 <main>
-  <section class="container flex white center">
+  <section class="banner flex white">
     <img class="logomain" src="images/logo.svg" alt="Логотип Лунного море">
   <h1>ЖК «Лунное море»</h1>
   <p>Место, откуда не хочется улетать</p>
-  <button type="submit" class="button" form="form">Забронировать</button>
+  <div class="btn"><a href="#form">Забронировать</a></div>
   </section>
   <section class="w100">
-  <div id="advantages" class="advantages flex">
-  <div class="adv-item">
+  <div id="advantages" class="container flex padding">
+  <div class="cont-item">
     <h2>Уникальный вид</h2>
     <p>
     Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.
     </p>
   </div>
-  <div class="adv-item">
+  <div class="cont-item">
     <h2>Инфраструктура</h2>
     <p>
     Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.
     </p>
   </div>
-  <div class="adv-item">
+  <div class="cont-item">
     <h2>Близость к Москве</h2>
     <p>
       При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.
@@ -54,8 +54,8 @@
   </section>
 
   <section class="grey w100">
-  	<div class="advantages flex center">
-  	  <div id="about" class="about">
+  	<div id="about" class="container flex center padding">
+  	  <div class="about">
       <h2>О ЖК «Лунное море»</h2>
       <p>
       Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.
@@ -65,17 +65,17 @@
       </p>
     </div>
       <div>
-        <img class="adv-item" src="images/moon-1.jpg" alt="Фото луны из вашего окна">
+        <img class="cont-item padding-left" src="images/moon-1.jpg" alt="Фото луны из вашего окна">
   	  </div>
     </div>
   </section>
 
   <section class="w100">
-  	<div class="advantages flex center">
+  	<div class="container flex center padding">
   	  <div>
-        <img class="adv-item" src="images/moon-2.jpg" alt="Фото луны из вашего окна">
+        <img class="cont-item" src="images/moon-2.jpg" alt="Фото луны из вашего окна">
   	  </div>
-  	  <div id="rest" class="about">
+  	  <div id="rest" class="about padding-left">
       <h2>Места для отдыха</h2>
       <p>
       Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.
@@ -89,7 +89,7 @@
   
   <section class="flex grey w100 center">
     <div class="padding">
-      <h2>Оставьте заявку сегодня!</h2>
+      <h2 class="padding-left">Оставьте заявку сегодня!</h2>
       <form id="form">
         
         <fieldset class="green">
@@ -168,36 +168,38 @@
           </div>
         </fieldset>
     </form>
-    <button type="submit" class="button-green">Отправить</button>
+    <div class="btn btn-green"><a>Отправить</a></div>
   </div>
 
 </section>
 </main>
 
-<footer class="footgrey white">
-  <div class="advantages flex">
-    <div class="adv-item">
-   <div class="logo-menu flex">
-      <img class="logoheader" src="images/logo.svg" alt="Логотип Лунного море">
-      <p class="nav-item"><a href="#">Лунное море</a></p>
-    </div>
+<footer class="footer white">
+  <div class="container flex vcenter">
+    <div>
+   	  <div class="vcenter flex">
+        <img class="logoheader" src="images/logo.svg" alt="Логотип Лунного море">
+        <p class="padding-left"><a href="#">Лунное море</a></p>
+      </div>
     <div><p>&copy; 2032 год</p></div>
-  </div>
-  <div class="adv-item">
+   </div>
+
+  <div class="">
     <h4>Проектная документация</h4>
     <ul>
       <li><p>Скачать</p></li>
       <li><p>Посмотреть на сайте</p></li>
     </ul>
   </div>
-  <div class="adv-item">
+
+  <div class="">
     <h4>О застройщике</h4>
     <ul>
       <li><p>Отзывы</p></li>
       <li><p>Сайт компании</p></li>
     </ul>
   </div>
-</div>
+  </div>
 </footer>
 </body>
 </html>

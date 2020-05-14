@@ -25,60 +25,53 @@ footer p {
   font-size: 14px;
 }
 
+.w100 {
+  width: 100%;
+}
+
 .flex {
   display: flex;
 }
 
-.center {
-  justify-content: center;
-  box-sizing: border-box;
-  padding: 20px 15%;
-
+.vcenter {
+  align-items: center;
 }
 
 .header {
   position: fixed;
   top: 0px;
   left: 0px;
+
+  justify-content: space-between;
+
   background-color: white;
   min-height: 60px;
   align-items: center;
   padding: 0px 20px;
   box-sizing: border-box;
-
-}
-
-.logo-menu {
-  flex-grow: 1;
-  align-items: center;
-  justify-content: flex-start;
 }
 
 .nav {
   list-style: none;
 }
 
-.nav-item {
-  padding-left: 10px;
-}
-
-.logo-menu a,
+.vcenter a,
 .nav a,
-.button a {
+.btn a {
   text-decoration: none;
   color: inherit;
 }
 
-.container {
+.banner {
   flex-direction: column;
   align-items: center;
-  
+  padding: 40px;
   background-image: url("../images/banner.png");
   background-position: center;
   background-color: #000000;
 }
 
-.container h1 {
+.banner h1 {
   font-size: 36px;
   margin: 0;
   padding-top: 20px;
@@ -94,7 +87,7 @@ footer p {
   height: 35px;
 }
 
-.button {
+.btn {
   background-color: transparent;
   border: 1px solid #ffffff;
   border-radius: 10px;
@@ -103,38 +96,33 @@ footer p {
   padding: 10px;
 }
 
-.button-green {
-  background-color: transparent;
-  border: 2px solid #09d3ac;
-  border-radius: 10px;
-  font-size: 16px;
-  color: #09d3ac;
-  padding: 10px 20px;
+.btn-green {
+  width: 90px;
   margin-top: 20px;
+  border: 2px solid #09d3ac;
+  color: #09d3ac;
 }
 
-.advantages {
+.container {
   width: 1000px;
-  padding: 60px;
   justify-content: space-between;
   margin: auto;
 }
 
-.adv-item {
+.cont-item {
   width: 300px;
+}
+
+.center {
+  justify-content: center;
+}
+
+.about {
+  width: 500px;
 }
 
 .grey {
   background-color: #f7f7f7;
-}
-
-.w100 {
-  width: 100%;
-  align-items: center;
-}
-
-.about {
-  width: 550px;
 }
 
 .form {
@@ -165,11 +153,17 @@ footer p {
 }
 
 .padding {
-  padding: 50px;
+  padding: 70px 0px;
 }
 
-.footgrey {
+.padding-left {
+  padding-left: 15px;
+}
+
+.footer {
+
   background-color: #303846;
+  padding: 30px 0px;
 }
 
 .white {
